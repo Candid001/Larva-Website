@@ -8,9 +8,9 @@ const HeroAb = () => {
     <>
       <div className="flex flex-col gap-8 h-fit w-auto  lg:h-fit">
         {/* First Div */}
-        <div className=" flex gap-2 bg-[#F3F3F3]  px-5 py-10 md:flex md:flex-row md:justify-between lg:h-[1057px] lg:px-20">
+        <div className=" flex gap-2 bg-[#F3F3F3]  px-5 py-20 md:flex md:flex-row md:justify-between lg:h-[1057px] lg:px-20">
           <div className="hidden md:flex relative lg:w-[610px]">
-            <img src={Img1} alt="Image" className="h-90 w-80 z-50 lg:w-[610px] lg:h-[673px]"/>
+            <img src={Img1} alt="Image" className="h-90 w-80 z-40 lg:w-[610px] lg:h-[673px]"/>
             <img src={Img2} alt="Image" className="h-60 w-60 -left-10 top-50 absolute z-10 lg:w-[401px] lg:h-[434px] lg:top-90" />
           </div>
 

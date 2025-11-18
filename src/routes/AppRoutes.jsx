@@ -7,6 +7,7 @@ import ContactUs from "../pages/ContactUs.jsx"
 import Courses from "../pages/Courses.jsx"
 import Faq from "../pages/Faq.jsx"
 import Footer from "../components/layout/Footer.jsx"
+import WhyLarva from "../pages/WhyLarva.jsx"
 
 const AppRoutes = () => {
   return (
@@ -24,6 +25,7 @@ const AppRoutes = () => {
             <Route path="/courses" element={<Courses />} />
             <Route path="/contact" element={<ContactUs />} />
             <Route path="/faq" element={<Faq />} />
+            <Route path="/why-larva" element={<WhyLarva />} />
           </Routes>
         </main>
 

@@ -4,6 +4,7 @@ import Instagram from "@assets/Vector (2).svg";
 import X from "@assets/twitter-x-fill.svg";
 import Facebook from "@assets/facebook-circle-fill.svg";
 import Linkdin from "@assets/linkedin-box-line.svg";
+import { Link } from "react-router-dom"
 
 const AboutUs = () => {
   return (
@@ -44,7 +45,7 @@ const AboutUs = () => {
             certificate is accredited by the Ministry of Education, Abuja,
             Nigeria and also the Skills Development Council of Canada.{" "}
           </p>
-          <button className="text-white bg-gradient-to-b from-[#7A5DA8] to-[#F39821] p-4 w-fit h-auto rounded-2xl">Read More</button>
+          <Link to="/about"><button className="text-white bg-gradient-to-b from-[#7A5DA8] to-[#F39821] p-4 w-fit h-auto rounded-2xl">Read More</button></Link>
         </div>
       </div>
     </>

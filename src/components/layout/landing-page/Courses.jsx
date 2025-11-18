@@ -9,6 +9,7 @@ import Frame7 from "@assets/Frame 1000008331 (5).svg";
 import Frame8 from "@assets/Frame 1000008331 (8).svg";
 import Frame9 from "@assets/Frame 1000008331 (6).svg";
 import Verify from "@assets/Vector (6).svg"
+import { Link } from "react-router-dom"
 
 const Courses = () => {
   const courses = [
@@ -125,9 +126,11 @@ const Courses = () => {
         ))}
       </div>
 
+      <Link to="/courses">
       <p className="text-center mt-10 font-semibold text-[#F39821] md:text-lg cursor-pointer hover:underline">
         <u>SEE MORE</u>
       </p>
+      </Link>
     </div>
   );
 };

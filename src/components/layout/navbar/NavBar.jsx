@@ -9,7 +9,7 @@ const Header = () => {
 
   const navigationList = [
     { id: 1, to: "/", name: "Home" },
-    { id: 2, to: "/about", name: "About us" },
+    { id: 2, to: "/about", name: "About Us" },
     { id: 3, to: "/courses", name: "Courses", img: ArrowD },
     { id: 4, to: "/faq", name: "FAQ" },
     { id: 6, to: "/contact", name: "Contact Us" },

@@ -49,7 +49,7 @@ const UpClasses = () => {
     if (isPaused) return;
     const interval = setInterval(() => {
       setActiveIndex((prev) => (prev + 1) % classes.length);
-    }, 5000);
+    }, 3000);
     return () => clearInterval(interval);
   }, [isPaused]);
 
@@ -76,7 +76,7 @@ const UpClasses = () => {
           {classes.map((cls, index) => (
             <div
               key={index}
-              className="w-full flex-shrink-0 flex flex-col gap-6"
+              className="w-full shrink-0 flex flex-col gap-6"
             >
               
               <div className="mx-5 flex flex-col gap-4">
